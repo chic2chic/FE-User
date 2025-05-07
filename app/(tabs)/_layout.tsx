@@ -6,18 +6,8 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
-        // 바텀탭 스타일 명시적으로 지정
         tabBarStyle: {
           height: 70,
-        },
-        // 활성 탭 색상 지정
-        tabBarActiveTintColor: "#0099ff",
-        // 비활성 탭 색상 지정
-        tabBarInactiveTintColor: "#888888",
-        // 탭 라벨 스타일
-        tabBarLabelStyle: {
-          fontSize: 12,
-          marginBottom: 5,
         },
       }}
     >

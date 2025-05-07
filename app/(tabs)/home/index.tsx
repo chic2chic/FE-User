@@ -6,11 +6,9 @@ export default function Home() {
   const router = useRouter();
   return (
     <SafeAreaView>
-      <Text>홈페이지</Text>
-      <Button
-        title="상세 페이지로 이동"
-        onPress={() => router.push("/(tabs)/profile")}
-      />
+      <View className="">
+        <Text className="font-bold text-blue-500">Hello World!</Text>
+      </View>
     </SafeAreaView>
   );
 }
